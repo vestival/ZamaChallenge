@@ -43,4 +43,5 @@ resource "aws_instance" "example" {
 }
 ```
 2. Planning: Generate an execution plan with tofu plan to preview changes.
+   
 3.Applying Changes: Apply your configuration with tofu apply.
