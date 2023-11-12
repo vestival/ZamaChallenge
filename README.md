@@ -38,9 +38,45 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-0c55b159cbfafe1f0"
+  ami           = "ami-0c55b159cbebca1f5"
   instance_type = "t2.micro"
 }
 ```
+
 2. Planning: Generate an execution plan with tofu plan to preview changes.
+
+```
+tofu plan [options]
+```
+
+
 3. Applying Changes: Apply your configuration with tofu apply.
+
+```
+tofu apply [options] [plan file]
+```
+
+## Documentation
+
+For detailed documentation, visit [OpenTofu Documentation](https://victors-organization-15.gitbook.io/zamas-challenge/).
+
+## Contributing
+
+Contributions to OpenTofu are welcome! Please read our [Contributing Guide](https://github.com/opentofu/opentofu/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+
+##Support and Community
+
+Join the OpenTofu community:
+
+[OpenTofu Slack](https://opentofu.org/slack)
+[GitHub Issues](https://github.com/opentofu/opentofu/issues) for bug reports and feature requests.
+
+##License
+
+This project is licensed under the MPL License - see the [LICENSE](https://github.com/opentofu/opentofu/blob/main/LICENSE) file for details.
+
+## Acknowledgments
+
+Thanks to all the contributors who have helped shape OpenTofu.
+
+Special thanks to the original Terraform project for inspiration.
