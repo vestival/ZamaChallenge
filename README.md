@@ -23,8 +23,8 @@ Download the latest version of OpenTofu from the [releases page](https://github.
 
 ```
 bash
-wget https://github.com/opentofu/opentofu/releases/download/v1.6.0-alpha2/tofu_1.6.0-alpha2_darwin_arm64.zip
-unzip tofu_1.6.0-alpha2_darwin_arm64.zip
+wget https://github.com/opentofu/opentofu/releases/download/v1.6.0-alpha4/tofu_1.6.0-alpha4_darwin_amd64.zip
+unzip tofu_1.6.0-alpha4_darwin_arm64.zip
 mv tofu /usr/local/bin/tofu
 ```
 
